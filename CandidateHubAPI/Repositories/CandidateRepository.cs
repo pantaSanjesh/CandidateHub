@@ -23,13 +23,23 @@ namespace CandidateHubAPI.Repositories
             var existingCandidate = await GetCandidateByEmailAsync(candidate.Email);
             if (existingCandidate != null)
             {
-                _context.Entry(existingCandidate).CurrentValues.SetValues(candidate);
+
+                existingCandidate.FirstName = candidate.FirstName;
+                existingCandidate.LastName = candidate.LastName;
+                existingCandidate.GitHubProfile = candidate.GitHubProfile;
+                existingCandidate.LinkedInProfile = candidate.LinkedInProfile;
+                existingCandidate.PreferredCallTime = candidate.PreferredCallTime;
+                existingCandidate.PhoneNumber = candidate.PhoneNumber;
+                existingCandidate.Comments = candidate.Comments;
+
+                _context.SaveChangesAsync();
             }
             else
             {
                 await _context.Candidates.AddAsync(candidate);
+                await _context.SaveChangesAsync();
             }
-            await _context.SaveChangesAsync();
+
         }
     }
 
