@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZJvpiuey0SR1y8nMlxozuE2coetxZGDlih1Ee7tJ7yI=",
+  "Source": "CandidateHubAPI",
+  "BasePath": "_content/CandidateHubAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
