@@ -1,9 +1,9 @@
   # Overview
 
-This is a Candidate Management API project.
+This is a Candidate Hub API project.
 
 We have created 2 Projects:
-CandidateHubAPI
+1. CandidateHubAPI
 
 - Contains the main application logic and API endpoints.
 
@@ -19,7 +19,7 @@ a. Create or Update Candidate - This endpoint allows creating a new candidate pr
 
 -Implements the repository pattern for abstraction between the database and controller.
 
-2. CandidateManagementAPI.Tests
+2. CandidateHubAPI.Tests
 
 - An Xunit test project with Moq added for mocking data statically for testing.
 
@@ -48,7 +48,7 @@ Packages required with project details:
 
 - Microsoft.EntityFrameworkCore.SqlServer
 
-2. CandidateManagementAPI.Tests
+2. CandidateHubAPI.Tests
 
 - coverlet.collector
 
