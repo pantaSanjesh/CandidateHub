@@ -1,6 +1,5 @@
 ﻿using CandidateHubAPI.Dtos;
 using CandidateHubAPI.Interface;
-using CandidateHubAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CandidateHubAPI.Controllers

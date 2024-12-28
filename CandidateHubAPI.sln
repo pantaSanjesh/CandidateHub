@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateHubAPI", "CandidateHubAPI\CandidateHubAPI.csproj", "{942E4D5E-5A48-46F2-8D46-86209FC52D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateHubAPI", "CandidateHubAPI\CandidateHubAPI.csproj", "{942E4D5E-5A48-46F2-8D46-86209FC52D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92982398-032F-4098-8371-F35E2BD3A2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateHubAPI.Tests", "CandidateHubAPI.Tests\CandidateHubAPI.Tests.csproj", "{152D8298-0A10-4157-AD7F-FC233CA395BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{942E4D5E-5A48-46F2-8D46-86209FC52D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942E4D5E-5A48-46F2-8D46-86209FC52D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942E4D5E-5A48-46F2-8D46-86209FC52D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152D8298-0A10-4157-AD7F-FC233CA395BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152D8298-0A10-4157-AD7F-FC233CA395BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152D8298-0A10-4157-AD7F-FC233CA395BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152D8298-0A10-4157-AD7F-FC233CA395BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{152D8298-0A10-4157-AD7F-FC233CA395BE} = {92982398-032F-4098-8371-F35E2BD3A2ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4A36CB8-0A94-46DC-A8D8-72ED681DD1F7}
